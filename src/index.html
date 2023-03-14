@@ -7,7 +7,34 @@
   </head>
   <body>
     <div id="root">
-      <h1>Hello world!</h1>
+      <header>
+        <a> <img src="./Image/1f575.png" alt="Logo de detective"  id="logo"></a>
+        <h1>Bienvenidos Detectives</h1>
+      </header>
+      <h2>Quieres cifrar o decifrar un mensaje?</h2>
+      <nav>
+        <div>
+          <br>
+          <label class="info-label" for="message">Mensaje :</label>
+          <input id="message" type="text" >
+        </div>
+        <div>
+          <label class="info-label" for="offset">Número de cifrado secreto :</label>
+        <input type="number" id="offset" size="4" min="0" max="9">
+        </div>
+        <div>
+          <br>
+          <button type="button" id="cifrar"> Cifrar </button>
+          <button  type="button" id="descifrar"> Decifrar </button>
+        </div>
+        <div>
+          <input type="text" id="message2"/>
+        </div>
+      </nav>
+      <footer>
+
+      </footer>
+
     </div>
     <script src="index.js" type="module"></script>
   </body>
