@@ -1,0 +1,44 @@
+body{
+    background-color: #FFD29C;
+    font-family:'Gotu';
+/*     line-height: 10rem; */
+
+}
+
+#logo{
+    height: 20rem;
+    width: 20rem;
+}
+h1{
+    font-size: 5rem;
+
+}
+header{
+    display: flex;
+}
+
+h2{
+    font-size: 3rem;
+    color: white;
+    text-align-last: center;
+    margin-top: -100px;
+    margin-left: 200px;
+
+}
+nav{
+    columns:100rem;
+    /* display: flex; */
+    margin-top: 10rem;
+    margin-left: 200px;
+}
+/* .info-label{
+    font-size: 2rem;
+} */
+#message{
+    width: 50rem;
+    height: 5rem;
+}
+#message2{
+    width: 50rem;
+    height: 5rem;
+}
