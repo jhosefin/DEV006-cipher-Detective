@@ -6,21 +6,22 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
+    <div class="container-xm" id="recuadro2">
       <header>
-        <a> <img src="./Image/1f575.png" alt="Logo de detective"  id="logo"></a>
+        <a> <img src="./Image/Detective.png" alt="Logo de detective"  id="logo"></a>
         <h1>Bienvenidos Detectives</h1>
       </header>
-      <h2>Quieres cifrar o decifrar un mensaje?</h2>
+      <h2>Aqui podras decifrar el mensaje que has encontrado durante tu investigación,
+          y tambien podras cifrar tu mensaje para dejarlo a otros detectives. ¡Mucha Suerte!</h2>
       <nav>
         <div>
-          <br>
-          <label class="info-label" for="message">Mensaje :</label>
-          <input id="message" type="text" >
+          <h3>Mensaje: </h3>
+          <input id="message" type="text">
         </div>
         <div>
-          <label class="info-label" for="offset">Número de cifrado secreto :</label>
-        <input type="number" id="offset" size="4" min="0" max="9">
+          <br>
+          <h3>Número de desplazamiento: </h3>
+        <input type="number" id="offset" size="4">
         </div>
         <div>
           <br>
@@ -28,6 +29,7 @@
           <button  type="button" id="descifrar"> Decifrar </button>
         </div>
         <div>
+          <br/>
           <input type="text" id="message2"/>
         </div>
       </nav>

@@ -1,5 +1,5 @@
 const cipher = {
-  // ...
+
   encode(offset, string) { 
     if(typeof string !== "string" || string === "" || typeof offset !== "number") {
       throw new TypeError();
@@ -7,9 +7,6 @@ const cipher = {
     while(offset > 26){
       offset -=26;
     }
-    /*     if(offset > 26){
-      offset = offset -26;
-    } */
     let stringEncode = "";
     for(let i=0; i< string.length; i++){  
       /* Convirtiendo el mensaje en un valor ASCII y aplicando el valor */
@@ -33,9 +30,6 @@ const cipher = {
     if(typeof string !== "string" || string === "" || typeof offset !== "number") {
       throw new TypeError();
     }
-    /*     if(offset > 26){
-      offset = offset -26;
-    } */
     while(offset > 26){
       offset -=26;
     }

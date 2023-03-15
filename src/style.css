@@ -1,16 +1,17 @@
 body{
-    background-color: #FFD29C;
+    background-color:#65647C;
     font-family:'Gotu';
-/*     line-height: 10rem; */
 
 }
 
 #logo{
-    height: 20rem;
-    width: 20rem;
+    height: 30rem;
+    width: 30rem;
+
 }
 h1{
-    font-size: 5rem;
+    font-size: 3rem;
+    text-decoration:underline;
 
 }
 header{
@@ -18,27 +19,69 @@ header{
 }
 
 h2{
-    font-size: 3rem;
-    color: white;
-    text-align-last: center;
-    margin-top: -100px;
-    margin-left: 200px;
+    font-size: 2rem;
+    color: #2f2d2a;
+    text-align-last:left;
+    margin-top: -20rem;
+    margin-left: 310px;
+    margin-bottom: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 4rem;
+    padding-left: 2rem;
 
 }
 nav{
     columns:100rem;
-    /* display: flex; */
-    margin-top: 10rem;
-    margin-left: 200px;
+    margin-left: 300px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 6rem;
 }
-/* .info-label{
-    font-size: 2rem;
-} */
+
 #message{
-    width: 50rem;
+    padding-left: 2rem;
+    width: 30rem;
     height: 5rem;
+    font-size:large;
+    color: rgb(119, 114, 114);
 }
 #message2{
-    width: 50rem;
+    padding-left: 2rem;
+    width: 30rem;
     height: 5rem;
+    color: rgb(119, 114, 114);
+    font-size:large;
+    font-family: 'Times New Roman', Times, serif;
+}
+#recuadro2{
+    margin: 40px;
+    background-color: #C7BCA1;
+    border-radius: 40px;
+}
+input{
+    background-color: #F1D3B3;
+    border-color: #454140;
+    border-radius: 60px;
+}
+button{
+    margin-left: 5rem;
+    border-radius: 50px;
+    border-color: #FFD29C;
+    background-color: #454140;
+    color: white;
+    font-size: 1rem;
+    font-family:monospace;
+    padding: 10px;
+    padding-left:30px ;
+    padding-right: 30px;
+
+}
+#offset{
+    margin-left: 13rem;
+    padding: 10px;
+    font-size: medium;
+}
+button:hover{
+    background-color: #C7BCA1;
+    color: #454140;
 }
