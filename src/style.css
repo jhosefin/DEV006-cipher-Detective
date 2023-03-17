@@ -16,7 +16,7 @@ h1{
 }
 header{
     display: flex;
-}
+} 
 
 h2{
     font-size: 2rem;
@@ -31,7 +31,6 @@ h2{
 
 }
 nav{
-    columns:100rem;
     margin-left: 300px;
     padding-top: 3rem;
     padding-bottom: 3rem;
